@@ -17,6 +17,7 @@ class King():
             or (nx == cx and ny == cy) #Same move
             or abs(nx - cx) > 1  
             or abs(ny - cy) > 1
+            self.inCheck == True
             ):
             print("Invalid move.")
             return
