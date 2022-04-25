@@ -1,5 +1,3 @@
-import math
-
 class Bishop():
 
     def __init__(self, cur_pos):
@@ -19,4 +17,4 @@ class Bishop():
             return
         
         self.cur_pos = new_pos
-        print("Moved.")
+        print(f"{__name__} moved to {self.cur_pos}.")

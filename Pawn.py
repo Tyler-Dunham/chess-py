@@ -1,5 +1,3 @@
-import math
-
 class Pawn():
     
     def __init__(self, cur_pos, move_num, color):
@@ -27,4 +25,4 @@ class Pawn():
 
         self.cur_pos = new_pos
         self.move_num += 1
-        print("Moved.")
+        print(f"{__name__} moved to {self.cur_pos}.")
